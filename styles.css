@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color:white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    max-height: fit-content;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,
+.form select {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.editBtn,
+.deleteBtn{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+}
+
+#addBtn{
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    background-color: #28a745;
+                
+}
+
+#resetBtn{
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #f0f0f0;
+        color: #333;
+}
+
+#resetBtn:hover {
+    background-color: #e0e0e0;
+    /* Slightly darker gray on hover */
+}
+
+#addBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dev{
+    padding-top: 10px;
+    text-align: center;
+}
+#name{
+    font-weight: bolder;
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+h2,p{
+        font-family: 'Montserrat', sans-serif;
+        color: #333;   
+    }

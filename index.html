@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Expense Calculator</title>
+    <link rel="stylesheet" href="styles.css"> 
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Income Expense Calculator</h1>
+
+        <div class="form">
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <select id="type">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button id="addBtn">Add Entry</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        <h2>Total Income: ₹ <span id="totalIncome">0.00</span></h2>
+        <h2>Total Expenses: ₹ <span id="totalExpenses">0.00</span></h2>
+        <h2>Net Balance: ₹ <span id="netBalance">0.00</span></h2>
+
+        <ul id="entryList"></ul>
+    </div>
+    <footer class="dev">
+       <p> Developed By <span id="name">@Santhosh Kumar S</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
